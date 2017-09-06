@@ -1,16 +1,48 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/home/index">
-      <img src="/images/alexphamlogo.png" class="alex_logo" alt="alexlogo">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="/home/index">home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="/work/work">work</a>
-      <a class="nav-item nav-link" href="/about/about">about</a>
-      <a class="nav-item nav-link" href="/blog/alexblog">blog</a>
+<div class="container-fluid">
+    <div class="row logo-container">
+        <div class="col-2 logo">
+            <%= image_tag("alexlogo1.png", class: "alex_logo", alt: "alex logo") %>
+        </div>
+        <div class="col-10 header-link">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/home/index">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/work/work">work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/about">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog/alexblog">blog</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
-</nav>
+</div>
+
+
+
+<!-- <nav class="navbar navbar-expand-lg bg-light">
+    <div class="logo">
+        <%= image_tag("alexlogo1.png", class: "alex_logo", alt: "alex logo") %>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end header-link" id="navbarNavAltMarkup">
+        <div class="navbar-nav row">
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <a class="nav-item nav-link active text-orange header-link" href="/home/index">home <span class="sr-only">(current)</span></a>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <a class="nav-item nav-link text-orange header-link" href="/work/work">work</a>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <a class="nav-item nav-link text-orange header-link" href="/about/about">about</a>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                    <a class="nav-item nav-link text-orange header-link" href="/blog/alexblog">blog</a>
+            </div>
+
+        </div>
+    </div>
+</nav> -->

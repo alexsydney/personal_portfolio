@@ -3,10 +3,32 @@
  *= require_self
  */
  @import "bootstrap";
- .alex_logo {
-     height: 30px;
-     width: 30px;
- }
- .text-orange {
-     color: #f50 !important;
- }
+
+/* for testing debug to set border to see */
+* {
+    border: 1px solid red;
+}
+
+body {
+    padding-bottom: 100px;
+
+    .navbar {
+        padding: 0px;
+    }
+    .alex_logo {
+        height: 100%;
+        float: left;
+    }
+    .logo-container {
+        height: 130px;
+    }
+    .header-link {
+        height: 200px;
+        // width: 100%;
+    }
+    .text-orange {
+         color: #f50;
+        // height: 50%;
+        //  width: 100%;
+    }
+}
