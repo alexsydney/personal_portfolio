@@ -18,11 +18,26 @@ body {
     .nav-item {
         width: 300px;
     }
+    // Heading starts from here
     .alex_logo {
         width: 80px;
     }
     .bg-custom-grey {
         background-color: #d9d9d9;
+    }
+    .navbar-dark,
+    .navbar-toggler {
+        color: #888888 !important;
+        border-color: #888888 !important;
+    }
+    .text-white {
+        color: #888888 !important;
+    }
+
+    .navbar-toggler {
+
+       background-color: #d9d9d9 !important;
+
     }
     .header-link {
         height: 120px;
