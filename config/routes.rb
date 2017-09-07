@@ -8,10 +8,11 @@ Rails.application.routes.draw do
    # Work controller and work page
   get 'work/work', to: 'work#work'
 
-
-   # Home controller and index page
+  # NOTE: This is my old website
+  # Home controller and index page
   get 'home/index', to: 'home#index'
 
+  # NOTE: New Site
   get 'home/home', to: 'home#home'
 
   # set default root to Home controller and index page.
