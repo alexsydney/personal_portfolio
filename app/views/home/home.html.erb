@@ -1,94 +1,68 @@
-<div class="collapse bg-custom-grey" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-          </div>
-          <div class="col-sm-4 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Follow on Twitter</a></li>
-              <li><a href="#" class="text-white">Like on Facebook</a></li>
-              <li><a href="#" class="text-white">Email me</a></li>
-            </ul>
-          </div>
-        </div>
+<!-- BODY OF SITE -->
+<section class="jumbotron text-center jumbotron-section">
+  <div class="container">
+    <h1 class="jumbotron-heading">Lists...</h1>
+    <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+    <p>
+      <%= link_to "Work and Study", work_work_path, class: "btn btn-primary" %>
+      <%= link_to "Old Website", home_index_path, class: "btn btn-secondary" %>
+    </p>
+  </div>
+</section>
+
+<div class="album text-muted photo-album">
+  <div class="container">
+
+    <div class="row ">
+      <div class="card">
+        <%= image_tag("collection.jpg", class: "card-img-top", alt: "collection") %>
       </div>
-    </div>
-    <div class="navbar navbar-dark bg-custom-grey">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand"><%= image_tag("alex9.png", class: "alex_logo", alt: "alex logo") %></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="card">
+        <%= image_tag("inspiration.jpg", class: "card-img-top", alt: "inspiration") %>
       </div>
-    </div>
-
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Album example</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-        <p>
-          <a href="#" class="btn btn-primary">Main call to action</a>
-          <a href="#" class="btn btn-secondary">Secondary action</a>
-        </p>
+      <div class="card">
+        <%= image_tag("nature.jpg", class: "card-img-top", alt: "nature") %>
       </div>
-    </section>
 
-    <div class="album text-muted">
-      <div class="container">
+      <div class="card">
+        <%= image_tag("officestyle.jpg", class: "card-img-top", alt: "officestyle") %>
+      </div>
+      <div class="card">
+        <img src="https://i.giphy.com/media/OI8TsOa9KFAPu/200w.gif" alt="dog" class="img-fluid dog">
+      </div>
+      <div class="card">
+    <%= image_tag("mountains.jpg", class: "card-img-top mountains", alt: "mountains") %>
+      </div>
 
-        <div class="row">
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-
+      <div class="card">
+    <%= image_tag("https://i.giphy.com/W22dIojezzgje.gif", class: "img-fluid water", alt: "nature") %>
+      </div>
+      <div class="card">
+        <%= image_tag("lights.jpg", class: "card-img-top lights", alt: "lights") %>
+      </div>
+      <div class="card">
+        <%= image_tag("coffee.jpg", class: "card-img-top", alt: "coffee") %>
+      </div>
+      <div class="card">
+        <%= image_tag("naturestyle.jpg", class: "card-img-top", alt: "naturestyle") %>
+      </div>
+      <div class="card">
+        <%= image_tag("naturestyle.jpg", class: "card-img-top", alt: "naturestyle") %>
+      </div>
+      <div class="card">
+        <%= image_tag("naturestyle.jpg", class: "card-img-top", alt: "naturestyle") %>
       </div>
     </div>
 
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-      </div>
-    </footer>
+  </div>
+</div>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>Feel free to drop me email alex.pham2010@gmail.com or mobile: 0419 561 612</p>
+
+  </div>
+</footer>

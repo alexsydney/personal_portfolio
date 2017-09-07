@@ -11,6 +11,7 @@
 
 body {
     padding-bottom: 100px;
+    background-color: #d9d9d9;
 
     .navbar {
         padding: 0px;
@@ -34,7 +35,7 @@ body {
         color: #888888 !important;
     }
 
-    .navbar-toggler {
+    .navbar-toggler-icon {
 
        background-color: #d9d9d9 !important;
 
@@ -45,13 +46,34 @@ body {
     }
     .text-orange {
         padding-top: 25px;
-         color: #888999 ; // for orange to test #f50
+         color: #888888 ; // for orange to test #f50
          font-weight: bold;
          font-size: 25px;
          text-align: center;
         // height: 50%;
         //  width: 100%;
     }
+
+    // jumbotron-section start from here
+    .jumbotron-section{
+            background-color: #d9d9d9;
+            color: #888888;
+    }
+
+
+   // photo-album containter - card start from here
+   .photo-album,
+   .card-container {
+       background-color: #d9d9d9 !important;
+    //    color: #888888;
+   }
+   .text-on-card{
+       color: #888888;
+   }
+  .card{
+      width: 25%;
+  }
+
 
     //for footer below:
     .footer {

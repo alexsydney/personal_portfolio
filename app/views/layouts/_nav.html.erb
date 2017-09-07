@@ -1,49 +1,32 @@
-<div class="container-fluid">
-    <div class="row logo-container">
-        <!-- <div class="clearfix visible-xs-block"></div> -->
-        <div class="col-2 logo">
-            <%= image_tag("alex9.png", class: "alex_logo", alt: "alex logo") %>
-        </div>
-        <div class="col-10 header-link">
-            <ul class="nav justify-content-end">
-                <li class="nav-item ">
-                    <a class="nav-link active text-orange" href="/home/index">home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-orange" href="/work/work">work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-orange" href="/about/about">about</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-orange" href="/blog/alexblog">blog</a>
-                </li>
-            </ul>
-        </div>
+<!-- NAV OF SITE -->
+<div class="collapse bg-custom-grey" id="navbarHeader">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 py-4">
+        <h4 class="text-white">About</h4>
+        <p class="text-muted">Hello,<br>
+        my name is Alex Pham and currently I am studying Diploma Information Technology from Coder Acedemy and I will be complted around March 2018.<br>
+        </p>
+
+      </div>
+      <div class="col-sm-4 py-4">
+        <h4 class="text-white">Contact</h4>
+        <ul class="list-unstyled">
+          <li><a href="https://www.linkedin.com/in/alex-pham-037a9a1b/" target="_blank" class="text-white">LinkedIn</a></li>
+          <li><a href="#" class="text-white">Email me</a></li>
+        </ul>
+      </div>
     </div>
+  </div>
 </div>
-
-
-
-<!-- <nav class="navbar navbar-expand-lg bg-light">
-    <div class="logo">
-        <%= image_tag("alexlogo1.png", class: "alex_logo", alt: "alex logo") %>
-    </div>
-    <div class="collapse navbar-collapse justify-content-end header-link" id="navbarNavAltMarkup">
-        <div class="navbar-nav row">
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                <a class="nav-item nav-link active text-orange header-link" href="/home/index">home <span class="sr-only">(current)</span></a>
-            </div>
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                <a class="nav-item nav-link text-orange header-link" href="/work/work">work</a>
-            </div>
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                <a class="nav-item nav-link text-orange header-link" href="/about/about">about</a>
-            </div>
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                    <a class="nav-item nav-link text-orange header-link" href="/blog/alexblog">blog</a>
-            </div>
-
-        </div>
-    </div>
-</nav> -->
+<div class="navbar navbar-dark bg-custom-grey">
+  <div class="container d-flex justify-content-between">
+    <a href="#" class="navbar-brand"><%= image_tag("alex9.png", class: "alex_logo", alt: "alex logo") %></a>
+    <% if (not current_page?(root_url)) && (request.path != '/home/home') %>
+        <%= link_to "GO HOME", home_home_path, class: "btn btn-primary" %>
+    <% end %>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>
