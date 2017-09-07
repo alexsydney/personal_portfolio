@@ -85,3 +85,18 @@
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 0px !important ;
+    }
+}
+
+.jumbotron {
+    padding:0px !important;
+    margin-bottom: 0px !important;
+}
+.button-links {
+    position: relative;
+    left: 25%;
+}
