@@ -16,6 +16,20 @@
     margin: 0px;
     padding: 0px;
 }
+.animals-container {
+    height: 400px;
+}
+@media (min-width: 1534px) {
+    .animals-container {
+        height: 400px;
+    }
+}
+@media (min-width: 1175px) {
+    .animals-container {
+        height: 400px;
+    }
+}
+
 @media (min-width: 992px) {
     .animals-container {
         height: 400px;

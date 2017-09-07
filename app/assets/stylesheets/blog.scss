@@ -1,3 +1,15 @@
 // Place all the styles related to the Blog controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.blog-container{
+    background: image-url('blog3.jpg') no-repeat;
+    height: 250vw; // vw means viewport width
+    background-size: cover;
+}
+.blog-header{
+    font-size: 25px;
+    font-weight: bold;
+    color: #d9d9dd;
+    text-align: center;
+    padding-top: 15px;
+}

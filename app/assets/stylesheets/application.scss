@@ -15,20 +15,41 @@ body {
     .navbar {
         padding: 0px;
     }
+    .nav-item {
+        width: 300px;
+    }
     .alex_logo {
         height: 100%;
         float: left;
+
     }
     .logo-container {
         height: 130px;
+        background-color: #d9d9d9;
     }
     .header-link {
-        height: 200px;
+        height: 120px;
         // width: 100%;
     }
     .text-orange {
-         color: #f50;
+        padding-top: 25px;
+         color: #888999 ; // for orange to test #f50
+         font-weight: bold;
+         font-size: 25px;
+         text-align: center;
         // height: 50%;
         //  width: 100%;
+    }
+
+    //for footer below:
+    .footer {
+        padding-top: 50px;
+        background-color: #d9d9d9;
+    }
+    .contact-details{
+        margin-left: 40px;
+        font-size: 40px;
+        font-family: sans-serif;
+        color: #888888;
     }
 }
