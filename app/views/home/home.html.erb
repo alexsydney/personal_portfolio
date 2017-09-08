@@ -1,69 +1,40 @@
 <!-- BODY OF SITE -->
 <section class="jumbotron text-center jumbotron-section">
   <div class="container">
-    <!-- <h1 class="jumbotron-heading">Lists...</h1>
-    <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p> -->
+
     <p class="button-links">
       <%= link_to "Work and Study", work_work_path, class: "btn btn-primary" %>
       <%= link_to "Old Website", home_index_path, class: "btn btn-secondary" %>
     </p>
   </div>
 </section>
-
-<div class="album text-muted photo-album">
-  <div class="container">
-
-    <div class="row ">
-      <div class="card">
-        <%= image_tag("collection.jpg", class: "card-img-top", alt: "collection") %>
-      </div>
-      <div class="card">
-        <%= image_tag("inspiration.jpg", class: "card-img-top", alt: "inspiration") %>
-      </div>
-      <div class="card">
-        <%= image_tag("nature.jpg", class: "card-img-top", alt: "nature") %>
-      </div>
-
-      <div class="card">
-        <%= image_tag("officestyle.jpg", class: "card-img-top", alt: "officestyle") %>
-      </div>
-      <div class="card">
-        <img src="https://i.giphy.com/media/OI8TsOa9KFAPu/200w.gif" alt="dog" class="img-fluid dog">
-      </div>
-      <div class="card">
-    <%= image_tag("mountains.jpg", class: "card-img-top mountains", alt: "mountains") %>
-      </div>
-
-      <div class="card">
-    <%= image_tag("https://i.giphy.com/W22dIojezzgje.gif", class: "img-fluid water", alt: "nature") %>
-      </div>
-      <div class="card">
-        <%= image_tag("lights.jpg", class: "card-img-top lights", alt: "lights") %>
-      </div>
-      <div class="card">
-        <%= image_tag("coffee.jpg", class: "card-img-top", alt: "coffee") %>
-      </div>
-      <div class="card">
-        <%= image_tag("naturestyle.jpg", class: "card-img-top", alt: "naturestyle") %>
-      </div>
-      <div class="card">
-        <%= image_tag("naturestyle.jpg", class: "card-img-top", alt: "naturestyle") %>
-      </div>
-      <div class="card">
-        <%= image_tag("naturestyle.jpg", class: "card-img-top", alt: "naturestyle") %>
-      </div>
+<div class="container-fluid bg-image">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12-col-lg12">
+                <%= image_tag("applecomputer.jpg", class: "bg-image", alt: "collection") %>
+        </div>
     </div>
-
-  </div>
 </div>
 
 <footer class="text-muted">
-  <div class="container">
-    <p class="float-right">
-      <a href="#">Back to top</a>
-  </p>
-  &nbsp;&nbsp;&nbsp;
-    <p>Feel free to drop me email alex.pham2010@gmail.com or mobile: 0419 561 612</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col contact-header">
+                <p>Contact:</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row clearfix">
+            <div class="col contact-mobile-email">
+                <p class="rotated-icon fa fa-mobile">&nbsp&nbsp&nbsp <strong>mobile: 0419-561-612</strong>  </p>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col contact-mobile-email">
+                <p class="rotated-icon fa fa-envelope-o">&nbsp&nbsp&nbsp <strong>email: alex.pham2010@gmail.com</strong> </p>
+            </div>
+        </div>
 
-  </div>
+    </div>
 </footer>

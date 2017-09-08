@@ -4,8 +4,8 @@
     <div class="row">
       <div class="col-sm-8 py-4">
         <h4 class="text-white">About</h4>
-        <p class="text-muted">Hello,<br>
-        my name is Alex Pham and currently I am studying Diploma Information Technology from Coder Acedemy and I will be complted around March 2018.<br>
+        <p class="text-muted">Hi,<br>
+        my name is Alex Pham and I live in Sydney.<br> Currently I am studying Diploma Information Technology from Coder Acedemy and I will be completed in March 2018 and work part time on the weekend and after school hours.<br>
         </p>
 
       </div>
@@ -13,7 +13,10 @@
         <h4 class="text-white">Contact</h4>
         <ul class="list-unstyled">
           <li><a href="https://www.linkedin.com/in/alex-pham-037a9a1b/" target="_blank" class="text-white">LinkedIn</a></li>
-          <li><a href="#" class="text-white">Email me</a></li>
+          <li><a href="https://github.com/alexsydney" target="_blank" class="text-white">GitHub</a></li>
+          <li>
+              <%= link_to "Email me", new_contact_path, class: "text-white" %>
+          </li>
         </ul>
       </div>
     </div>
@@ -23,7 +26,7 @@
   <div class="container d-flex justify-content-between">
     <a href="#" class="navbar-brand"><%= image_tag("alex9.png", class: "alex_logo", alt: "alex logo") %></a>
     <% if (not current_page?(root_url)) && (request.path != '/home/home') %>
-        <%= link_to "GO HOME", home_home_path, class: "btn btn-primary" %>
+        <%= link_to "home", home_home_path, class: "btn btn-primary home-link" %>
     <% end %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

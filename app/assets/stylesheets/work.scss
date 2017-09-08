@@ -1,3 +1,20 @@
-// Place all the styles related to the Work controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.work-container {
+    background: image-url('maclaptop.jpg') no-repeat;
+    height: 100vw; // vw means viewport width
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+.text-header-h2 {
+    margin-left: 10px;
+    color: #888888;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.text-list {
+    color: #888888;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}

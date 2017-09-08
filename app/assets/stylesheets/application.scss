@@ -10,7 +10,7 @@
 // }
 
 body {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background-color: #d9d9d9;
 
     .navbar {
@@ -25,6 +25,10 @@ body {
     }
     .bg-custom-grey {
         background-color: #d9d9d9;
+    }
+    .home-link {
+        margin-right: 20px;
+
     }
     .navbar-dark,
     .navbar-toggler {
@@ -60,7 +64,14 @@ body {
             color: #888888;
     }
 
-
+   // div middle oh home page start from here
+   // .bg-image{
+   //     height: 100%;
+   //     background: image-url('applecomputer.jpg') no-repeat;
+   //  //    height: 250vw; // vw means viewport width
+   //     background-size: cover;
+   //     background-position: center;
+   // }
    // photo-album containter - card start from here
    .photo-album,
    .card-container {
@@ -76,9 +87,23 @@ body {
 
 
     //for footer below:
+
     .footer {
         padding-top: 50px;
         background-color: #d9d9d9;
+    }
+    .contact-header{
+        margin-left: 40px;
+        padding-top: 15px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .contact-mobile-email{
+        margin-left: 150px;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
     }
     .contact-details{
         margin-left: 40px;
