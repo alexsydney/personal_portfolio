@@ -35,6 +35,7 @@ gem 'jquery-rails'
 # User Gmail account
 gem 'mail_form'
 gem 'simple_form'
+gem 'dotenv-rails', groups: [:development, :test]
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -23,5 +23,8 @@ Rails.application.routes.draw do
   # create email
   resources "contacts", only: [:new, :create]
 
+  get 'contacts/contactus', to: 'contacts#contactus'
+
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

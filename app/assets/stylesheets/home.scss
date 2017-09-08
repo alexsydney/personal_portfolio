@@ -100,3 +100,11 @@
     position: relative;
     left: 30%;
 }
+
+.bg-image {
+    background: image-url('applecomputer.jpg') no-repeat;
+    height: 250px; // vw means viewport width
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
