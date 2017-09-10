@@ -3,13 +3,38 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .blog-container{
     background: image-url('blog3.jpg') no-repeat;
-    height: 250vw; // vw means viewport width
+    height: 90vw; // vw 90means viewport width
     background-size: cover;
 }
 .blog-header{
-    font-size: 25px;
+    font-size: 35px;
+    font-family: cursive;
     font-weight: bold;
     color: #d9d9dd;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
+}
+.container-p-text{
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family:cursive;
+    color: #fff;
+    text-align: justify;
+
+}
+.row-img-position{
+    margin-left: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.img-cool-tech{
+    height: 150px;
+    width: 150px;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-color: #d9d9d9;
+    border-spacing: 0px;
 }

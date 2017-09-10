@@ -23,6 +23,19 @@ body {
     .alex_logo {
         width: 80px;
     }
+    .nav-alex-photo{
+        width: 150px;
+        height: 100%;
+        border: #d9d9d9;
+    }
+    .text-about-me{
+        font-size: 20px;
+        font-weight: lighter;
+        font-family:serif;
+        color: #888888;
+        text-align: justify;
+        // padding-top: 10px;
+    }
     .bg-custom-grey {
         background-color: #d9d9d9;
     }
@@ -92,6 +105,13 @@ body {
         padding-top: 50px;
         background-color: #d9d9d9;
     }
+    .footer-contact-header{
+        padding-top: 25px;
+        padding-left: 25px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
     .contact-header{
         margin-left: 40px;
         padding-top: 15px;
@@ -100,10 +120,44 @@ body {
         font-family: sans-serif;
     }
     .contact-mobile-email{
-        margin-left: 150px;
-        font-size: 25px;
+        padding-left: 30px;
+        padding-top: 3px;
+        // margin-left: 150px;
+        font-size: 20px;
         font-family: sans-serif;
         font-weight: bold;
+    }
+    .contact-link-icon{
+        padding-left: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        image-resolution: from-image;
+        background-size: contain;
+        color: #888888;
+    }
+
+    .icon{
+        padding-left: 40px;
+        padding-right: 25px;
+    }
+
+    .fa.fa-linkedin-square, .fa-google-plus, .fa-github{
+    	border-radius: 40%;
+    	background:#888888;
+    }
+    .fa-linkedin-square{
+        border-radius: 50%;
+    	background:#b4b4b4;
+    }
+    .fa-linkedin-square:hover{
+        background: #EA6212;
+    }
+    .fa-google-plus:hover{
+    	background: #EA6212; //#EA6212
+    }
+
+    .fa-github:hover{
+    	background: #EA6212; //#EA6212
     }
     .contact-details{
         margin-left: 40px;

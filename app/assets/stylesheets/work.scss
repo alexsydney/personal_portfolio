@@ -1,20 +1,43 @@
 .work-container {
     background: image-url('maclaptop.jpg') no-repeat;
-    height: 100vw; // vw means viewport width
+    height: 60vw; // vw means viewport width
     background-size: cover;
     margin: 0px;
     padding: 0px;
 }
 .text-header-h2 {
-    margin-left: 10px;
-    color: #888888;
-    font-size: 35px;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: #888888;  // green color: #92B558 Greenery, Green Flash: #79C753
+    font-size: 40px;
     font-weight: bold;
     font-family: sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    // font-family:serif;
 }
-.text-list {
+.text-ul-list{
+    padding-top: 0px;
+    margin-left: 30px;
     color: #888888;
-    font-size: 25px;
-    font-family: sans-serif;
+    font-size: 30px;
+    font-family:sans-serif;
+
+}
+.text-li-list {
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #888888;
+    font-size: 20px;
+    font-family: Droid Sans;
     font-weight: bold;
+    text-decoration: none;
+
+}
+.text-item-list{
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: 40px;
+    color: #888888;
+    font-size: 22px;
+    font-family: PT Sans bold;
 }

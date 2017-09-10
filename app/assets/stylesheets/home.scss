@@ -103,8 +103,36 @@
 
 .bg-image {
     background: image-url('applecomputer.jpg') no-repeat;
-    height: 250px; // vw means viewport width
+    height: 22vw; // vw means viewport width
     background-size: cover;
     margin: 0px;
     padding: 0px;
+}
+.btn-custom {
+    color: #888888 !important;
+    background-color: #e9ecef !important;
+    border-color: #888888 !important;
+    font-weight:lighter !important;
+    font-family: sans-serif !important;
+    font-size: 20px !important;
+    background-size: cover !important;
+    background-color: #d9d9d9 !important;
+    border-color: #fff !important;
+    border-radius: #fff !important;
+    border-style:double !important;
+    // margin-left: 5% !important;
+
+
+
+
+}
+// . btn-custom:active {
+//     background-color: #b4b4b4;
+// }
+
+a {
+    color: #888888;
+}
+    a:visited {
+    color: #b4b4b4;
 }

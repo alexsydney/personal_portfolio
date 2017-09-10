@@ -3,14 +3,18 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8 py-4">
-        <h4 class="text-white">About</h4>
-        <p class="text-muted">Hi,<br>
-        my name is Alex Pham and I live in Sydney.<br> Currently I am studying Diploma Information Technology from Coder Acedemy and I will be completed in March 2018 and work part time on the weekend and after school hours.<br>
+        <h4 class="text-white">about me</h4>
+        <p class="text-about-me">
+        Hello, my name is Alex Pham, live in Sydney and I am studying Diploma Information Technology from Coder Acedemy and I will be completed in March 2018. </br></br> In the same, I am also working part time and volumtee from Social Community, Homecare and Disability Service. I like to help people who don't have enough ability to support themself when they are sick without family or relatives, older people and disability in our community.</br> </br>
+        Thank you for visiting my website and in my website, I also put these link to my <a href="https://www.linkedin.com/in/alex-pham-037a9a1b/" target="_blank" alt="link to Linked website">LinkedIn, </a><a href="https://github.com/alexsydney">GitHub </a>and <%= link_to "email me", new_contact_path, class: "text-white" %> so you feel free to drop me few lines and we keep intouch.
         </p>
 
       </div>
-      <div class="col-sm-4 py-4">
-        <h4 class="text-white">Contact</h4>
+      <div class="col-sm-2 py-2">  <!-- <div class="col-sm-4 py-4"> -->
+          <%= image_tag("alexpic.JPG", class: "nav-alex-photo", alt: "alex photo") %>
+      </div>
+      <div class="col-sm-2 py-2">  <!-- <div class="col-sm-4 py-4"> -->
+        <h4 class="text-white">contact</h4>
         <ul class="list-unstyled">
           <li><a href="https://www.linkedin.com/in/alex-pham-037a9a1b/" target="_blank" class="text-white">LinkedIn</a></li>
           <li><a href="https://github.com/alexsydney" target="_blank" class="text-white">GitHub</a></li>
@@ -26,7 +30,7 @@
   <div class="container d-flex justify-content-between">
     <a href="#" class="navbar-brand"><%= image_tag("alex9.png", class: "alex_logo", alt: "alex logo") %></a>
     <% if (not current_page?(root_url)) && (request.path != '/home/home') %>
-        <%= link_to "home", home_home_path, class: "btn btn-primary home-link" %>
+        <%= link_to "home", home_home_path, class: "btn btn-primary home-link btn-custom" %>
     <% end %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

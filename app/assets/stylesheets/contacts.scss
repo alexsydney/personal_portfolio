@@ -6,3 +6,48 @@ abbr[title], abbr[data-original-title] {
     text-decoration: none !important;
     color: red;
 }
+
+.contact-header-h1{
+    height: 2% !important;
+    color: #888888 !important;
+
+}
+.contact-row-p-text-display{
+    margin-top: 10px !important;
+    padding-top: 20px !important;
+    margin-left: 15px !important;
+    font-size: 30px;
+}
+.email-send-form{
+    margin-left: 60px;
+    padding-left: 20px;
+}
+.email-send-form-header-h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #888888;
+}
+.email-text-field{
+    font-size: 20px;
+    color: #8888888;
+    font-family: sans-serif;
+}
+.btn-email-send-cust{
+    background-color: #d9d9d9 !important;
+    color: #888888;
+    border-radius: 20%;
+    border-color: #d9d9d9;
+}
+.btn-custom{
+    color: #888888 !important;
+    background-color: #e9ecef !important;
+    border-color: #888888 !important;
+    font-weight:lighter !important;
+    font-family: sans-serif !important;
+    font-size: 20px !important;
+    background-size: cover !important;
+    background-color: #d9d9d9 !important;
+    border-color: #fff !important;
+    border-radius: #fff !important;
+    border-style:double !important;
+}
