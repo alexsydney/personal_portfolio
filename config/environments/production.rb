@@ -91,13 +91,16 @@ Rails.application.configure do
   # config for gmail
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { :host => "alexphamportfolio.herokuapp.com" }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.smtp_settings = {
     address:              "smtp.gmail.com",
-    port:                 587,
-    domain:               "alexphamportfolio.herokuapp.com:80",
+    port:                 587, #465
+    domain:               "gmail.com",
     user_name:            ENV["GMAIL_USERNAME"],
     password:             ENV["GMAIL_PASSWORD"],
-    authentication:       'plain',
+    authentication:       "plain",
     enable_starttls_auto: true
   }
 end
